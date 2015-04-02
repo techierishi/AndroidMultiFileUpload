@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ButtonStyle">
+        <ignore path="res/layout/activity_main.xml" />
+    </issue>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/galleryitem.xml" />
+        <ignore path="res/layout/grid.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/activity_upload.xml" />
+        <ignore path="res/layout/grid.xml" />
+    </issue>
+    <issue id="PxUsage">
+        <ignore path="res/layout/activity_upload.xml" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res/layout/grid.xml" />
+    </issue>
+</lint>
